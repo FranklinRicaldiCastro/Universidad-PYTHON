@@ -42,3 +42,8 @@ nombreCompletoDeTuTioMaster = "Franklin Antolin Ricaldi Castro"
 
 #Definiendo una variable con snake_case es apto para python
 nombre_completo_de_tu_tio_master = "Franklin Antolin Ricaldi Castro"
+
+#Importa la fecha de hoy y la imprime
+from datetime import date
+date.today()
+print("Today's date is: " + str(date.today()))
